@@ -1,0 +1,56 @@
+/* Configuração global da página */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do Formulário */
+#calculadora_desconto {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 360px;
+}
+
+/* Campo de entrada */
+#num1 {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#num1:focus {
+    border-color: #007bff;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
